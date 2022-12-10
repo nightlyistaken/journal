@@ -1,5 +1,5 @@
 import { Head } from "$fresh/runtime.ts";
-
+import { css, tw } from "twind/css";
 export default function Home() {
   return (
     <>
@@ -7,10 +7,10 @@ export default function Home() {
         <title>Journal</title>
       </Head>
       <body>
-        <div class="">
-        <section class="absolute mx-auto">
-          <nav class="flex justify-between  text-black w-screen">
-            <div class="px-5 xl:px-12 py-6 flex w-full items-center">
+        <div class="dark:(bg-gray-900 text-white)">
+        <section class="fixed mx-auto  backdrop-filter  backdrop-blur-md border-b border-opacity-20 border-gray-200 dark:(border-gray-900) bg-opacity-50 z-10">
+          <nav class="flex justify-between text-black dark:(text-white) w-screen">
+            <div class="px-5 xl:px-10 py-6 flex w-full items-center">
               <a class="text-3xl font-bold font-heading" href="#">
                 <span class="bg-gradient-to-br text-transparent bg-clip-text font-medium from-indigo-600 via-purple-500 to-indigo-800">Journal</span>
               </a>
@@ -109,13 +109,13 @@ export default function Home() {
           </nav>
         </section>
       <section class="py-24 flex items-center min-h-screen justify-center">
-        <div class="mx-auto max-w-[43rem]">
+        <div class="mx-auto max-w-[45rem]">
           <div class="text-center">
-            <p class="text-lg bg-clip-text font-bold text-transparent tracking-wide leading-8 bg-gradient-to-l from-indigo-800 to-indigo-400">
-              The new version 1.1x of Journal is here!
+            <p class="text-lg bg-clip-text font-bold text-transparent tracking-wide leading-8 bg-gradient-to-r from-indigo-500 via-blue-900 to-indigo-300 dark:(from-indigo-400 via-blue-500 to-indigo-200)">
+              The new version 0.1x of Journal is here!
             </p>
-            <h1 class="mt-3 text-[3.5rem] font-bold leading-[4rem] tracking-wider text-black">
-              Write your journals&nbsp;like never <span class="font-bold bg-clip-text text-transparent tracking-wide leading-8 bg-gradient-to-l from-indigo-800 via-zinc-800 to-indigo-900">before</span>
+            <h1 class="mt-3 text-[3.5rem] font-bold leading-[4rem] tracking-wider text-black dark:text-white">
+              Write your journals&nbsp;like never <span class="font-bold bg-clip-text text-transparent tracking-wide leading-8 bg-gradient-to-l from-indigo-600 via-zinc-500 to-indigo-700">before</span>
             </h1>
             <p class="mt-3 text-lg leading-relaxed text-slate-400">
               Journal is a simple way to write journals. It is fast, easy to use
@@ -133,14 +133,14 @@ export default function Home() {
             </a>
             <a
               href="#"
-              class="border-1 text-black transform rounded-md transition-all ease-in duration-300 bg-gradient-to-tr bg-slate-100 px-5 py-3 font-medium  hover:-translate-y-1 hover:scale-105 hover:from-slate-300 hover:to-slate-300 focus:scale-95 shadow-sm"
+              class="border-1  transform rounded-md transition-all ease-in duration-300 bg-gradient-to-tr bg-slate-100 px-5 py-3 font-medium  hover:-translate-y-1 hover:scale-105 hover:from-slate-300 hover:to-slate-300 focus:scale-95 shadow-sm"
             >
               Coming Soon
             </a>
           </div>
         </div>
       </section>
-      <section class="py-24 flex items-center min-h-screen justify-center bg-white">
+      <section class="py-24 flex items-center min-h-screen justify-center">
         <div class="mx-auto max-w-[43rem]">
           <div class="text-center">
             <p class="text-lg bg-clip-text font-bold text-transparent tracking-wide leading-8 bg-gradient-to-l from-indigo-800 to-indigo-400">
@@ -157,8 +157,11 @@ export default function Home() {
          
         </div>
       </section>
+      
       </div>
       </body>
     </>
   );
 }
+
+  

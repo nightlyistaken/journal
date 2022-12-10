@@ -4,14 +4,15 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: "Rubik, sans-serif",
+        sans: "Poppins, sans-serif",
       },
     },
   },
   preflight: {
     // Import external stylesheet
     "@import":
-      `url('https://fonts.googleapis.com/css2?family=Rubik&display=swap')`,
+      `url('https://fonts.googleapis.com/css2?family=Poppins&display=swap')`,
     // Declare font face
+
   },
 } as Options;
