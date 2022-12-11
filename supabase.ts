@@ -1,6 +1,12 @@
 import { createClient } from "https://esm.sh/supabase";
 
+import "https://deno.land/std@0.167.0/dotenv/load.ts";
+const supabaseUrl = 'https://ldzfixmbbavwvqxfntob.supabase.co'
+const supabaseKey = Deno.env.get("SUPABASE_ANON_KEY");
+
 const supabase = await createClient({});
+
+// journallllll
 type Journal = {
   user_id: string;
   title: string;
@@ -36,7 +42,7 @@ function unwrapError(err: string) {
     throw new DOMException("OperationError", err);
   }
 }
-
+// userrrr
 type User = {
   id: string;
   username: string;

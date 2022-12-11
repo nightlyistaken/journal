@@ -2,8 +2,8 @@ export function Navbar() {
   return (
     <section class="fixed mx-auto backdrop-filter backdrop-blur-lg border-b border-opacity-20 border-gray-200 bg-opacity-70 z-10">
       <nav class="flex justify-between text-black w-screen">
-        <div class="px-5 xl:px-10 py-6 flex w-full items-center">
-          <a class="text-3xl font-bold font-heading" href="#">
+        <div class="px-2 xl:px-10 py-4 flex w-full items-center">
+          <a class="text-2xl font-bold font-heading" href="#">
             <span class="bg-gradient-to-br text-transparent bg-clip-text from-gray-900  to-indigo-800">
               Endless
             </span>
@@ -30,7 +30,7 @@ export function Navbar() {
               </svg>
             </a>
 
-            <a class="flex items-center hover:text-gray-200" href="#">
+            <a class="flex items-center hover:text-gray-200" href="/login">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 class="h-6 w-6 hover:text-indigo-900"
