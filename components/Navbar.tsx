@@ -4,7 +4,7 @@ export function Navbar() {
       <nav class="flex justify-between text-black w-screen">
         <div class="px-5 xl:px-10 py-6 flex w-full items-center">
           <a class="text-3xl font-bold font-heading" href="#">
-            <span class="bg-gradient-to-br text-transparent bg-clip-text from-indigo-600 via-purple-500 to-indigo-800">
+            <span class="bg-gradient-to-br text-transparent bg-clip-text from-indigo-900 via-pink-800 to-indigo-800">
               Journal
             </span>
           </a>

@@ -15,19 +15,19 @@ export default function Home() {
           <section class="py-24 flex items-center min-h-screen justify-center">
             <div class="mx-auto max-w-[45rem]">
               <div class="text-center">
-                <p class="text-lg bg-clip-text font-bold text-transparent tracking-wide leading-8 bg-gradient-to-r from-indigo-500 via-blue-900 to-indigo-300 dark:(from-indigo-400 via-blue-500 to-indigo-200)">
-                  The new version 0.1x of Journal is here!
+                <p class="text-lg bg-clip-text font-bold text-transparent tracking-wide leading-8 bg-gradient-to-r from-gray-900 to-indigo-900 ">
+                  The new version 0.1x of Endless is here!
                 </p>
                 <div class="transform transition-all hover:scale-105 hover:-translate-y-1 hover:skew-x-3 hover:cursor-pointer">
                   <h1 class="mt-3 text-[3.5rem] font-bold leading-[4rem] tracking-wider text-black ">
                     Write your journals&nbsp;like never{" "}
-                    <span class="font-bold bg-clip-text text-transparent tracking-wide leading-8 bg-gradient-to-l from-indigo-600 via-zinc-500 to-indigo-700 ">
+                    
                       before
-                    </span>
+                    
                   </h1>
                 </div>
                 <p class="mt-3 text-lg leading-relaxed text-slate-400">
-                  Journal is a simple way to write journals. It is fast, easy to
+                Endless is a simple way to write journals. It is fast, easy to
                   use and has a user-friendly interface that makes it easy to
                   write your journals.
                 </p>
@@ -36,9 +36,9 @@ export default function Home() {
               <div class="mt-6 flex items-center justify-center gap-4">
                 <a
                   href="/preview"
-                  class="transform rounded-md transition-all duration-300 bg-indigo-600 px-5 py-3 font-medium text-white hover:-translate-y-1 hover:scale-105 hover:from-indigo-700 hover:to-indigo-600 focus:scale-95 shadow-sm"
+                  class="transform rounded-md transition-all duration-300 bg-gray-900 px-5 py-3 font-medium text-white hover:-translate-y-1 hover:scale-105 hover:from-indigo-700 hover:to-indigo-600 focus:scale-95 shadow-sm"
                 >
-                  Preview Journal
+                  Preview Endless
                 </a>
                 <a
                   href="#"
