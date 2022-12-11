@@ -1,1 +1,1 @@
-// This file is just so that we can use the Tailwind CSS IntelliSense extension lol
+// This file is just so that we can use the Tailwind CSS IntelliSense extension
