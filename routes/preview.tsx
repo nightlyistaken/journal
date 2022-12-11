@@ -40,6 +40,7 @@ export default function Preview() {
                 >
                 </input>
               </div>
+              
               <div class="flex flex-col space-y-4 pt-4">
                 <label class="text-lg font-semibold font-heading">
                   Content
