@@ -19,7 +19,7 @@ This will watch the project directory and restart as necessary.
 
 Uses `deno fmt` and `deno lint` to format and lint the code.
 
-## Framework
+### Framework
 
 [![Made with Fresh](https://fresh.deno.dev/fresh-badge-dark.svg)](https://fresh.deno.dev)
 
