@@ -1,7 +1,7 @@
 import { createClient } from "https://esm.sh/supabase";
 
 import "https://deno.land/std@0.167.0/dotenv/load.ts";
-const supabaseUrl = 'https://ldzfixmbbavwvqxfntob.supabase.co'
+const supabaseUrl = "https://ldzfixmbbavwvqxfntob.supabase.co";
 const supabaseKey = Deno.env.get("SUPABASE_ANON_KEY");
 
 const supabase = await createClient({});
