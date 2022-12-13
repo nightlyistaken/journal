@@ -1,10 +1,10 @@
-import { createClient } from "https://esm.sh/supabase";
+import { createClient } from 'https://esm.sh/@supabase/supabase-js@2'
 
 import "https://deno.land/std@0.167.0/dotenv/load.ts";
 const supabaseUrl = "https://ldzfixmbbavwvqxfntob.supabase.co";
 const supabaseKey = Deno.env.get("SUPABASE_ANON_KEY");
 
-const supabase = await createClient({});
+export const supabase = await createClient(supabaseUrl, supabaseKey);
 
 // journallllll
 type Journal = {

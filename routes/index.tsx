@@ -1,6 +1,10 @@
 import { asset, Head } from "$fresh/runtime.ts";
 import { Navbar } from "../components/Navbar.tsx";
-// * Landing page for Journal
+
+
+// access_token
+// refresh_token
+// token_type
 
 export default function Landing() {
   return (

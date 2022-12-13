@@ -1,5 +1,5 @@
 import { PageProps } from "$fresh/server.ts";
 
 export default function Greet(props: PageProps) {
-  return <div></div>;
+  return <div> Hi! </div>;
 }

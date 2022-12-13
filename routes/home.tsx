@@ -45,7 +45,6 @@ export default function Home() {
             </div>
             <div
               class="p-2.5 mt-3 flex items-center rounded-md px-4 duration-300 cursor-pointer hover:bg-blue-600 text-white"
-              onclick="dropdown()"
             >
               <i class="bi bi-chat-left-text-fill"></i>
               <div class="flex justify-between w-full items-center">

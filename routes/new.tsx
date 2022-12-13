@@ -1,5 +1,4 @@
 import { Head } from "$fresh/runtime.ts";
-import { useEffect, useState } from "preact/hooks";
 import { Navbar } from "../components/Navbar.tsx";
 
 export default function Preview() {

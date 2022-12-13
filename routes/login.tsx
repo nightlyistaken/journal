@@ -1,7 +1,4 @@
 import { Head } from "$fresh/runtime.ts";
-import { Navbar } from "../components/Navbar.tsx";
-
-// * Landing page for Journal
 
 export default function Home() {
   return (
@@ -10,7 +7,7 @@ export default function Home() {
         <title>Journal | Login</title>
       </Head>
       <body>
-        <div class="">
+      <div class="">
           <div class=" flex min-h-screen text-gray-800 flex-col justify-center bg-gradient-to-tr from-indigo-200 to-gray-200 py-6 sm:py-12 ">
             <div class=" py-3 sm:w-96 mx-auto text-center">
               <div class="mt-4 bg-white bg-opacity-10 shadow-xl backdrop-blur-2xl rounded-lg text-left">
